@@ -8,10 +8,6 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
 }
-main {
-  width: 50vw;
-  margin: auto;
-}
 h2 {
   text-transform: uppercase;
   text-align: center;
@@ -103,7 +99,7 @@ header nav a {
   letter-spacing: 12%;
 }
 .project {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 .project h2 {
   background: #ff8660;
@@ -147,7 +143,7 @@ header nav a {
   color: #c5c5c5;
 }
 #experience {
-  margin: 100px 0;
+  margin: 150px 40vh;
 }
 #experience h2 {
   background: #5badff;
@@ -178,10 +174,36 @@ header nav a {
   gap: 20px;
   align-items: center;
 }
-.exp-card .card h3{
+.exp-card .card h3 {
   font-size: 25px;
   font-weight: 600;
 }
 .exp-card .card p {
   color: #c5c5c5;
+}
+footer {
+  margin: 100px 40vh;
+}
+footer h2 {
+  text-align: left;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+footer div.mail {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+}
+footer div p {
+  font-weight: 700;
+  color: #c5c5c5;
+}
+footer .links {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+footer .links a{
+  color: #fff;
 }
