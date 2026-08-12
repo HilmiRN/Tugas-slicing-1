@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 50vw;
+  margin: auto;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+}
+header nav {
+  display: flex;
+  gap: 70px;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+#hero {
+  text-align: center;
+}
+#hero img {
+  height: 400px;
+}
+#hero h1 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1;
+  margin: 30px 0;
+}
+#hero h1 span {
+  background: #ff8660;
+  background: linear-gradient(
+    140deg,
+    rgba(255, 134, 96, 1) 0%,
+    rgba(154, 51, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#hero p {
+  color: #c5c5c5;
+  width: 700px;
+  margin: 20px auto;
+}
+#hero button {
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 10px;
+}
+.btn1 {
+  background-color: white;
+  border: none;
+}
+.btn2 {
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+}
+#projects {
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.exp {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.exp div {
+  display: flex;
+  gap: 50px;
+}
+.exp img {
+  width: 50px;
+  height: 50px;
+}
+.exp h2 {
+  color: #c5c5c5;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 12%;
+}
+.project {
+  margin-top: 100px;
+}
+.project h2 {
+  background: #ff8660;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 134, 96, 1) 0%,
+    rgba(213, 73, 29, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 800;
+}
+.project div.project-card {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.project-card .card {
+  background-color: #2a2a2a;
+  border-radius: 20px;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 40px 20px 20px;
+}
+.card-content img {
+  height: 15px;
+  width: 15px;
+}
+.card-content div h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.card-content div p {
+  font-size: 12px;
+  font-weight: 800;
+  color: #c5c5c5;
+}
+#experience {
+  margin: 100px 0;
+}
+#experience h2 {
+  background: #5badff;
+  background: linear-gradient(
+    180deg,
+    rgba(91, 173, 255, 1) 0%,
+    rgba(19, 115, 209, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 800;
+}
+.exp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+.exp-card .card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.exp-card .card div div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.exp-card .card h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.exp-card .card p {
+  color: #c5c5c5;
+}
